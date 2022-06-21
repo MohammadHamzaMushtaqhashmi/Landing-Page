@@ -1,0 +1,126 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+/* Section One */
+.header, .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #1F2937 
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+/*.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937
+}*/
+.header-item-1{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+
+}
+.header-item-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+    background-color:darkgrey;
+    height: 200px;
+    width: 300px;
+}
+button{
+    background-color: blue;
+    color: white;
+
+}
+h1{
+    color: #f9faf8;
+    font-size: 48px;
+}
+h5{
+    font-size: 24px;
+    color: #f9faf8;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+p{
+    color: darkcyan;
+    font-size: 18px;
+}
+
+
+/* Section Two */
+
+.img{
+    height: 150px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    
+}
+.middle-container{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.box{
+    max-width: 150px;
+    margin-bottom: 10px;  
+}
+.text{
+    color: darkcyan;
+    font-size: 18px;
+}
+
+/* Section Three */
+
+.information{
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 8em;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+/* Section four */
+.section4{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 100px;
+    padding: 10px;
+    background-color: blueviolet;
+}
+/* footer */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    background-color: #1F2937;
+    color: #f9faf8;
+    height: 50px;
+
+}
